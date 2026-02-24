@@ -1,0 +1,59 @@
+body{
+    background-color:#0f0f0f;
+    font-family:Arial;
+    color:white;
+}
+
+.movie-container{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:60px;
+}
+
+.poster-box img{
+    width:320px;
+    border-radius:12px;
+    box-shadow:0px 0px 20px rgba(255, 69, 0,0.6);
+}
+
+.movie-details{
+    max-width:500px;
+}
+
+.movie-details h1{
+    color:orangered;
+    margin-bottom:20px;
+}
+
+.movie-details span{
+    color:orangered;
+    font-weight:bold;
+}
+
+.movie-details p{
+    margin:10px 0;
+    line-height:1.6;
+}
+
+.see-more-btn{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%);
+    padding:8px 25px;
+    background:orangered;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    font-size:14px;
+}
+
+.see-more-btn:hover {
+    background: red;
+}
+
+
+
